@@ -1,7 +1,3 @@
-# ezdapps
-
-> My exquisite Nuxt.js project
-
 ## Build Setup
 
 ``` bash
@@ -17,6 +13,14 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+
+# generate static project && deploy to firebase
+$ npm run generate && firebase deploy
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Reference
+1. [EIP-1102: How to prepare your dapp](https://medium.com/metamask/eip-1102-preparing-your-dapp-5027b2c9ed76https://ethereum-magicians.org/t/the-ux-of-eip-1102/814)
+2. [Metamask Login](https://www.toptal.com/ethereum/one-click-login-flows-a-metamask-tutorial)
+3. [Firebase BBS](https://qiita.com/nacasora/items/713919f7a56024f5c59f)
+4. [Firebase Functions](https://github.com/firebase/functions-samples)
+5. [sample site](https://explorer.bounties.network/explorer)
